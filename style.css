@@ -1,0 +1,183 @@
+body {
+	min-width: 600px;
+	font-family: Helvetica Arial sans-serif;
+}
+
+.description {
+	visibility: hidden;
+	position: absolute;
+}
+
+.pagination {
+	margin-top: 20px;
+}
+
+.row {
+	width: 100%;
+	background-color: rgba(200, 200, 200, 0.1);
+
+}
+
+.card {
+	margin: 5px 8px;
+	font-family: Helvetica sans-serif;
+	border-color: black;
+	text-align: center;
+	display: none;
+	color: black;
+	width: 200px;
+	background-color: rgba(0, 0, 0, 0.118);
+}
+
+.card-img-top {
+	margin-top: 10px;
+	border: 1px;
+	border-style: solid;
+	border-color: rgba(255, 255, 255, 0.3);
+	height: 210px;
+	box-shadow: black 1px 1px 1px;
+}
+
+.card-img-top:hover {
+	transform: scale(1.1);
+	transition: 0.3s ease;
+	border-radius: 5px;
+}
+
+.card-title {
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.download-title {
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;
+}
+
+.btn-group-sm .btn {
+	visibility: hidden;
+	position: relative;
+	bottom: 5px;
+}
+
+.btn{
+	box-shadow: black 1px 1px 1px;
+}
+
+.card-body .btnInfo {
+	color: black;
+	box-shadow: black 1px 1px 1px;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn:hover {
+	transform: scale(1.15);
+	transition: 0.3s ease;
+}
+
+.nav-pagination {
+	margin-left: 90px;
+}
+
+.page-link:hover {
+	transform: scale(1.35);
+	border-color: black;
+	background-color: rgba(177, 177, 177, .5);
+	transition: 0.3s ease;
+	border-radius: 5px;
+}
+
+i:hover {
+	transform: scale(2);
+	transition: 0.3s ease;
+}
+
+#ex1 {
+  position: relative;
+  top: 10px;
+  height: 450px;
+  width: 800px;
+  background: #000;
+}
+
+#close {
+	text-align: center;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	color: whitesmoke;
+	text-decoration: none;
+	outline: none;
+	box-shadow: darkred 1px 1px 1px 1px;
+}
+
+#close:hover {
+	transform: scale(1.5);
+	transition: .6s ease;
+}
+
+#title {
+	text-align: center;
+	font-family: Helvetica Arial sans-serif;
+	font-size: 30px;
+	cursor: help;
+	font-weight: 800;
+	font-style: italic;
+	color: rgb(228, 227, 217);
+	text-decoration: none;
+	outline-style: dashed;
+	outline-width: 1px;
+	outline-color: rgba(255, 255, 255, .4);
+}
+
+#description {
+	text-align: center;
+	font-family: Helvetica Arial sans-serif;
+	font-size: 17px;
+	color: rgb(228, 217, 199);
+	text-decoration: none;
+	outline-style: dashed;
+	outline-width: 1px;
+	outline-color: rgba(255, 255, 255, .4);
+	overflow-wrap: break-word;
+}
+
+.dlink {
+	visibility: hidden;
+}
+
+#links {
+	text-align: center;
+	text-decoration: none;
+}
+
+#link-download {
+	text-align: center;
+	font-family: Helvetica Arial sans-serif;
+	font-size: 17px;
+	margin: 10px;
+	text-decoration: none;
+	outline-style: dashed;
+	outline-width: 1px;
+	outline-color: rgba(255, 255, 255, .4);
+	overflow-wrap: break-word;
+}
+
+#omodal {
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	cursor: help;
+}
+
+footer {
+	position: relative;
+	clear: both;
+	bottom: 0px;
+}
